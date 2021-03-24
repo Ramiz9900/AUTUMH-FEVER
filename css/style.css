@@ -1,0 +1,62 @@
+body {
+    background-color: #2B333B;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card_box {
+    width: 357px;
+    height: 560px;
+    border-radius: 4%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcThHqkJZVwXdNoBMg5cCywSpd5LiOwWbmv79A&usqp=CAU);
+    background-size: cover;
+    margin: 40px auto;
+    -webkit-box-shadow: 0px 1px 12px 6px rgba(0, 0, 0, 0.88);
+    box-shadow: 0px 1px 12px 6px rgba(0, 0, 0, 0.88);
+    position: relative;
+        overflow: hidden;
+
+}
+.card_box h1, p{
+    color: #91C2E3;
+    text-align: center;
+    padding-top: 25px;
+}
+.stick{
+    width: 100px;
+    height: 5px;
+    background-color: #FFDB00;
+    position: absolute;
+    left: 140px;
+}
+.card_box  p{
+    color: #fff;
+    font-size: 28px;
+    font-family: cursive;
+}
+.icons{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 30px;
+    margin-right: 40px;
+    color: rgb(255, 255, 255);
+    
+}
+.info p{
+    font-size: 25px;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: -40%;
+    overflow: hidden;
+    background: linear-gradient(0deg, #65ADA9, transparent);
+    transition-duration: .3s;
+}
+.card_box:hover .info p{
+    bottom: 10%;
+}
+
+
+
+
+
